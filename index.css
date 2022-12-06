@@ -1,0 +1,150 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+.logo a img{
+    width: 290px;
+    height: 150px;
+}
+.flota_text2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.flota_text2 img{
+    width: 800px;
+}
+
+.flota_img{
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.flota_text{
+    text-align: center;
+    padding: 370px;
+    color: white;
+    line-height:50px;
+    text-shadow: 0 2px 0 rgb(0, 0, 0);
+}
+.wp{
+    bottom: 30px;
+    right: 60px;
+    position:fixed;
+    font-size: 50px;
+    cursor:pointer;
+    z-index: 1;
+}
+.wp a{
+    text-decoration:none;
+    color: #39b54a;
+}
+@media screen and (max-width: 952px){
+    .logo{
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    .logo a img{
+        width: 290px;
+        height: 150px;
+    }
+    .flota_text{
+        text-align: center;
+        padding: 170px;
+    }
+    .flota_text2 img{
+        width: 290px;
+    }
+    .wp{
+        font-size: 30px;
+        bottom: 10px;
+        right: 10px;
+    }
+    .menu_text{
+        color: white;
+        text-align:center;
+        justify-content: center;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .menu_text h2{
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
+    }
+    .menu_text h2 a{
+        text-decoration: none;
+        color: #39b54a;
+    }
+}
+@media screen and (max-width: 858px){
+    .menu{
+        height: 95px;
+    }
+    .logo a img{
+        width: 140px;
+        height: 90px;
+    }
+    .flota_text{
+        font-size: 10px;
+        text-align: center;
+        padding: 70px;
+        color: white;
+    }
+    .flota_text2 img{
+        width: 360px;
+    }
+    .menu_text{
+        color: white;
+        text-align:center;
+        justify-content: center;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .menu_text h2{
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
+    }
+    .menu_text h2 a{
+        text-decoration: none;
+        color: #39b54a;
+    }
+}
+@media screen and (max-width: 858px) and (orientation: landscape){
+    .menu_items li{
+        margin: 5px 0 0 0;
+    }
+    .menu_items {
+        overflow: scroll;
+        height: calc(100% - 65px);
+    }
+    .flota_text2 img{
+        width: 390px;
+    }
+    .menu_text{
+        color: white;
+        text-align:center;
+        justify-content: center;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .menu_text h2{
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
+    }
+    .menu_text h2 a{
+        text-decoration: none;
+        color: #39b54a;
+    }
+}
